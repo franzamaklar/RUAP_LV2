@@ -8,6 +8,7 @@ namespace ContactManager.Services
 {
     public class ContactRepository
     {
+
         public Contact[] GetAllContacts()
         {
             return new Contact[]
